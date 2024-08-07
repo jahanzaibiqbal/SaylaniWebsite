@@ -1,0 +1,384 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    }
+
+/* header{
+    
+} */
+
+.headerTop{
+    background-color: #eeee;
+
+}
+
+.headerTop div{
+    
+    font-weight: 600;
+    margin: 0 26px;
+    padding: 0 36px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerTop ul{
+    display: flex;
+    font-size: 12px;
+    }
+    
+.headerTop ul li{
+        
+    margin: 0 10px;
+    list-style-type: none;    
+    }
+
+.headerTop ul li a{
+color: #666666;
+color: none;
+text-decoration: none;
+}
+
+.headerTop ul li i{
+
+    padding: 0 10px 0 0;
+}
+
+.headerTop button{
+    background-color: #fff;
+    color: #000000D9;
+    font-size: 14px;
+    padding: 4px 15px;
+    border: none;
+}
+.navBg{
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+
+
+}
+
+nav{
+    margin: 0 26px;
+    padding: 8px 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 8px 0; */
+    }
+    
+nav .logo img{
+        
+        width: 200px;
+        height: 55px;
+        }
+        
+nav ul{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    
+    }
+    
+nav ul li{
+        
+    margin: 0 10px;
+    list-style-type: none;    
+    }
+
+nav ul li a{
+color: #666666;
+color: none;
+text-decoration: none;
+}
+
+nav ul li button{
+
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    color: #ffff;
+
+}
+
+ .blue{
+    background-color: #0d7db7;
+  
+}
+
+.green{
+    background-color: #8DC63F;  
+}
+
+main{
+    margin: 0 26px;
+    padding: 8px 36px;
+}
+ .mainContent{
+    display: flex;
+    align-items: center;
+}
+
+.mainContent .content h2{
+    font-size: 38px;
+    color: #000000D9;
+    padding: 15px 0px;
+}
+.mainContent .content h4{
+    font-size: 16px;
+    color: #000000;
+    padding: 15px 0px;
+}
+.mainContent .content p{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+.mainContent .image img{
+
+    width: 448px;
+    height: 520px;
+}
+
+.mainContent .content button{
+    background-color: #fff;
+    color: #000000D9;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    /* border: none; */
+}
+
+.banner figure{
+    width: 100%;
+    position: relative;
+}
+
+ .banner img{
+    width: 100%;
+    /* opacity: 0.2; */
+}
+
+.banner button{
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    padding: 20px 80px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8dc63f;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.homeServices{
+    margin-top: 50px;
+}
+
+.homeServices .heading{
+    padding: 0 12px;
+}
+
+.homeServices .heading h2{
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 600;
+        color: #000000D9;
+        margin: 0 0 15px;
+        text-align: center;
+}
+.serviceBoxGroup{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.serviceBox {
+    height: 192px;
+    background-color: rgba(182, 239, 73, .2);
+    border-radius: 10px;
+    color: #424242;
+    margin-top: 40px;
+    padding: 50px;
+    text-align: center;
+    transition: background-color 1.5s ease-out;
+}
+
+.service_text h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 8px;
+}
+
+.fundRaisingGroup{
+
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .fundRaising {
+    /* height: 300px; */
+    position: relative;
+    width: 30%;
+}
+
+
+.fundRaising button{
+    background-color: #8DC63F;
+    color: #FFF;
+    width: 100%;
+    font-size: 14px;
+    margin: ;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-style:none;
+    
+}
+
+.fundRaising figure img{
+
+    width: 100%;    
+}
+
+.fundRaising .content{
+    width: 100%;
+}
+
+.fundRaising h4{ 
+    width: 100%;
+    margin: 0 0 8px;
+    font-size: 16px;    
+    color: #FFF;
+}
+
+.fundRaising figure{   
+    width: 100%;
+    position: relative;
+    /* padding: 10px; */
+}
+
+.fundRaising .content{
+    position: absolute;
+    bottom: 10px;
+    /* left: 10px; */
+}
+
+
+.upcoming_projects{   
+    margin-top:30px;
+    display: flex;
+
+}
+.upcoming_projects figure{
+    width: 50%;
+    margin: 0 12px;
+}
+
+.upcoming_projects figure img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.upcoming_projects .content{
+    width: 50%;
+    margin: 0 12px;
+
+}
+
+.upcoming_projects .content h3{
+
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.85);
+    /* line-height: 41; */
+    margin: 0 0 15px;
+}
+
+.upcoming_projects .content h4{
+    margin: 0 0 8px;
+    font-size: 16px;
+    /* line-height: 15px; */
+    color: rgb(13, 109, 183);
+}
+
+.upcoming_projects .content p{
+    margin: 0 0 8px;
+    font-size: 14px;
+    /* line-height:21px; */
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.servicesCounter{
+    margin-top: 30px;
+    /* background-image: url('./images/upcoming_background.png'); */
+    /* opacity: 0.2; */
+    background-color: #2c3add;
+    /* height: 100%;
+    width: 100%; */
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+.serviceBox{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px 0; */
+    gap: 30px;
+    flex-direction: column;
+}
+.serviceBox figure{
+    background-color: #fff;
+     width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.serviceBox .content{
+    text-align: center;
+    color: #FFF;
+
+}
+.testimonial{
+    margin-top: 30px;
+}
+.testimonialHeader{
+    text-align: center;
+    
+}
+.testimonialHeader h4{
+    color: #8DC63F;
+    font-size: 16px;
+}
+
+.testimonialHeader h3{
+    margin: 10px 0 0;
+    color: #000000D9;
+    font-size: 30px;
+}
+
+.testimonialContent{
+    background-color: #EEEEEE;
+    padding: 50px;
+    text-align: center;
+}
